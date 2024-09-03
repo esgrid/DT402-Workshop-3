@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <!-- Here is my stylesheet connection -->
+    <link rel="stylesheet" href="../static/dashboard_stylesheet.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="dashboard-title">E-Commerce Data Dashboard</div>
+    </header>
+
+    <div class='container'>
+
+        <!-- This is where we will put our charts -->
+        <section>
+            <div class="chart-row">
+                <div class="chart-container full-width">
+                    <h2>Low Stock Levels</h2>
+                    <canvas id="stockChart"></canvas>
+                </div>
+            </div>
+        </section> 
+
+    </div>
+
+    <footer>
+        <div class="footer">© 2024 CCL Ecommerce Dashboard</div>
+    </footer>
+    
+    <!-- Load our javascript -->
+    <script src="../static/dashboard_script.js"></script>    
+
+</body>
+
+</html>
