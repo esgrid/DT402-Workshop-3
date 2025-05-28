@@ -1,5 +1,5 @@
-# flask-dashboard-demonstration
-DT402 Workshop 3 Demonstration of a flask dashboard
+# D402 Workshop 3: Flask Dashboard
+DT402 Workshop 3 is a demonstration of a flask dashboard.
 
 ## Summary
 
